@@ -1,0 +1,61 @@
+page-category {
+ font-family: Gill sans;
+ text-decoration: black;
+ text-align: center;
+ padding: 30px;
+ font-size: 20px;
+
+}
+.card1{
+    height: 110px;
+    background-image: url("../../assets/imgs/4.jpg");
+    background-size: cover;
+    box-shadow: 70px;
+    position: relative;
+    text-align: center;
+}
+.card2{
+    height: 110px;
+    background-image: url("../../assets/imgs/soccer.jpg");
+    background-size: cover;
+    position: relative;
+    text-align: center;
+}
+.card3{
+    height: 110px;
+    background-image: url("../../assets/imgs/cricket-ball-red-hitting-pitch-closeup-hd_nkhpn_hxl__F0000.png");
+    background-size: cover;
+    position: relative;
+    text-align: center;
+}
+.card4{
+    height: 110px;
+    background-image: url("../../assets/imgs/5b515a4a49166b90cba4af945b98a368.jpg");
+    background-size: cover;
+    position: relative;
+    text-align: center;
+}
+.card5{
+    height: 110px;
+    background-image: url("../../assets/imgs/68ad728149520e06877323d1f3f084cc.jpg");
+    background-size: cover;
+    position: relative;
+    text-align: center;
+}
+
+ion-app.md [padding] .scroll-content {
+    padding: 1px;
+    padding-top: 15px;
+}
+.card-title {
+    position: absolute;
+    top: 30%;
+    font-size: 1.4em;
+    width: 100%;
+    font-weight: lighter;
+    color: #fff;
+    
+  }
+.bgr{
+    background-image: url("../../assets/imgs/bg.jpg")
+}

@@ -1,0 +1,16 @@
+page-soccer {
+    font-family: Gill sans;
+    text-decoration: black;
+    padding: 30px;
+    text-align: center;
+}
+.bg{
+    background-image: url("../../assets/imgs/sport-wallpapers-hd.jpg");
+    background-size: cover; 
+}
+ion-thumbnail{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 70px;
+}

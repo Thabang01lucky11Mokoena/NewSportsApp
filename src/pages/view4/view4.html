@@ -1,0 +1,33 @@
+<!--
+  Generated template for the View4Page page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  </ion-header>
+  
+  
+  <ion-content padding class="bgr">
+
+        <button ion-button clear (click)="dismiss()">
+                <span ion-text color="primary" showWhen="ios">Cancel</span>
+                <ion-icon name="md-close" showWhen="android,windows"></ion-icon>
+        </button>
+
+        <!-- <img class="imgS" src="../../assets/imgs/5b515a4a49166b90cba4af945b98a368.jpg"> -->
+
+  <ion-list *ngFor="let i of arr"> 
+      <ion-card class="move">
+        
+          <h2 class="go"><strong>{{i.title}}</strong></h2>
+          <br>
+          <img src="{{i.urlToImage}}"><br> {{i.description}}
+          <br>
+          <br>
+          <a href="{{i.url}}">More..</a>
+      </ion-card>
+  </ion-list>
+  
+  </ion-content>
